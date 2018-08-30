@@ -125,7 +125,7 @@ export const cssUnit3 = x => {
 
 // Extrapolate a space-separated list of up to 4 CSS units.
 // Uses typical CSS unit extrapolation rules
-// (e.g. same behavior as `width: 1px;`).
+// (e.g. same behavior as `padding: 1px;`).
 // Returns an array of 4 cssValues.
 export const cssUnit4 = x => {
   const units = cssUnitList(x);
@@ -137,7 +137,7 @@ export const cssUnit4 = x => {
     return [a, a, b, b];
   } else if (units.length == 3) {
     const [a, b, c] = units;
-    return [a, b, c, c];
+    return [a, b, b, c];
   } else if (units.length > 3) {
     const [a, b, c, d] = units;
     return [a, b, c, d];
