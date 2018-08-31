@@ -1,0 +1,29 @@
+{
+  "name": "ruleset",
+  "version": "0.1.0",
+  "description": "Tools for parsing CSS style-attribute-like strings",
+  "main": "ruleset.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordonbrander/ruleset.git"
+  },
+  "keywords": [
+    "css",
+    "dom",
+    "parsing"
+  ],
+  "author": "Gordon Brander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gordonbrander/ruleset/issues"
+  },
+  "homepage": "https://github.com/gordonbrander/ruleset#readme",
+  "dependencies": {
+    "esm": "^3.0.81"
+  },
+  "devDependencies": {}
+}
